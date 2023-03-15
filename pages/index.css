@@ -66,6 +66,8 @@
   line-height: 72px;
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__title-span {
@@ -76,10 +78,6 @@
   line-height: 72px;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.header__title-paragraph {
-  margin: 0;
 }
 
 .header__description {
@@ -165,7 +163,7 @@
   margin-bottom: 80px;
 }
 
-.recipe__videos {
+.recipes__videos {
   display: flex;
   justify-content: center;
   margin-bottom: 215px;
@@ -177,18 +175,12 @@
   flex-direction: column;
 }
 
-.recipe__video_aeropress {
-  border: none;
-  margin-bottom: 24px;
-  position: relative;
-}
-
-.recipe__video_frenchpress {
+.recipes__iframe {
   border: none;
   margin-bottom: 24px;
 }
 
-.recipe__video-caption {
+.recipes__video-caption {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
