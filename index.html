@@ -108,7 +108,69 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="booktable"></section>
+        <section class="reservation" id="booktable">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="reservation__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                required
+                placeholder="Name Surname"
+              />
+            </fieldset>
+            <fieldset class="reservation__fieldset">
+              <label for="number" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                class="form__input"
+                id="number"
+                required
+                placeholder="1-8"
+                min="1"
+                max="8"
+              />
+            </fieldset>
+            <fieldset class="reservation__fieldset">
+              <label for="date-time" class="form__label">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date-time"
+                required
+              />
+            </fieldset>
+            <fieldset class="reservation__fieldset">
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                required
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <fieldset class="reservation__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="reservation__fieldset">
+              <label
+                for="agree-to-terms"
+                class="form__label form__label__checkbox"
+                ><input
+                  class="form__checkbox"
+                  type="checkbox"
+                  name="agree-to-terms"
+                  id="agree-to-terms"
+                  required
+                />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
