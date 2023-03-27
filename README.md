@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+It may be worth adding something to the site that would allow users to sign up for email updates from the Coffee Shop. For example, either a pop-up upon loading or something similar that encourages people to "join the community, learn about Coffee Shop events, and get a 10% off coupon".
