@@ -22,7 +22,6 @@
 }
 
 .about__title {
-  display: flex;
   margin-top: 100px;
   margin-bottom: 0;
   margin-left: 80px;
@@ -41,7 +40,6 @@
   z-index: 2;
   gap: 20px;
   max-width: 660px;
-  flex-wrap: wrap;
   margin-top: 119px;
   margin-right: 80px;
   margin-bottom: 173px;
