@@ -11,6 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 0;
 }
 
 .header__title {
@@ -24,6 +25,8 @@
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  position: relative;
 }
 
 .header__title-span {
@@ -44,6 +47,8 @@
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 0;
+  z-index: 1;
+  position: relative;
 }
 
 .header__image {
@@ -51,7 +56,6 @@
   width: 646px;
   height: 568px;
   right: 5px;
-  z-index: 99;
   top: 124px;
 }
 
@@ -66,15 +70,9 @@
   box-sizing: border-box;
   width: 100%;
   padding-left: 80px;
-}
-
-.header__hours {
-  text-align: left;
+  padding-right: 80px;
 }
 
 .header__paragraph {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  padding-right: 80px;
 }
